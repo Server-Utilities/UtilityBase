@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "utilitybase",
+  "version": "${version}",
+  "name": "UtilityBase",
+  "description": "A library for mods that the GitHub organization 'Server-Utilities' makes.",
+  "authors": [
+    "Quaint"
+  ],
+  "contact": {
+    "website": "https://github.com/Server-Utilities/UtilityBase",
+    "repo": "https://github.com/Server-Utilities/UtilityBase"
+  },
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "tv.quaint.utilitybase.UtilityBase"
+    ]
+  },
+  "mixins": [
+    "UtilityBase.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": ">=1.18.2"
+  }
+}
